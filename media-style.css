@@ -14,7 +14,7 @@
   }
 
 
-  .format-box{
+  /* .format-box{
     width: 28%;
     height: 12vw;
   }
@@ -25,12 +25,12 @@
 
   .format-change{
     width: 40%;
-  }
+  } */
 
   .reverse-button{
-    padding-bottom: 10vw;
-    width: 15%;
-    height: 4vw;
+    /* padding-bottom: 10vw; */
+    width: 20%;
+    height: 12vw;
     font-size: 8vw;
   }
 
