@@ -1,0 +1,92 @@
+.information{
+    /* padding-top: 3vw; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 60%; */
+    font-size: 1.5vw;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+}
+
+.operation-button{
+    padding-bottom: 2vw;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    /* font-size: 300vw; */
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* .format-box{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 5%; */
+    /* justify-content: space-around; */
+    /* border: 1px solid black; */
+    /* width: 25%; */
+    /* height: 100%; */
+/* } */
+
+/* .format{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex; */
+    /* justify-content: space-between; */
+    /* background-color: #ffffff; */
+    /* flex-direction: row-reverse; */
+    /* background-color: cadetblue; */
+    /* border: 1px solid black; */
+    /* background-image: linear-gradient(to right,#a6a6a6,#ffffff ); */
+    /* width: 50%;
+    height: 50%;
+    align-self: center;
+    box-shadow: 1px 1px;
+} */
+
+/* .format-change{
+    width: 40%;
+    height: 160%;
+    align-self: center;
+    background-color: burlywood;
+}
+
+.format-24{
+    align-self: center;
+    font-size: 140%;
+    font-family: monospace;
+} */
+
+/* .reset-button{
+    padding: 0.5vw;
+    width: 20%; */
+    /* height: 90%; */
+    /* font-size: 1.2vw;
+    border-radius: 70%; */
+    /* font-size: 1.5vw; */
+    /* align-self: center;
+    box-shadow: 2px 2px;
+    background-image: linear-gradient(to right,#5f9ea0,#ffffff );
+} */
+
+.reverse-button{
+    /* padding-bottom: 2.5vw; */
+    width: 18%;
+    /* height:100%; */
+    font-size: 3.2vw;
+    text-align: center;
+    font-weight: bolder;
+    /* border-radius: 50%; */
+    align-self: center;
+    background-image: linear-gradient(to right,#5f9ea0,#ffffff );
+    box-shadow: 1px 1px;
+}
+

@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,#a6a6a6,#ffffff );
+    /* height: 100vh; */
+    width: 99vw;
+    /* border: 1px solid black; */
+}
+
+#applicaton-heading{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1vw;
+    text-align: center;
+    font-size: 1.8vw;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 10%; */
+    /* border: 1px solid black; */
+}
+
+#heading-1{
+    padding-top: 0.2%;
+    margin: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-family: 'Special Elite';
+    font-size: 100%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#heading-2{
+    position: relative;
+    /* top: 4px; */
+    padding-top: 0.7%;
+    margin: 0;
+    display: block;
+    width: 100%;
+    font-family: 'Rye';
+    font-size: 200%;
+    text-align: center;
+    /* border: 1px solid black; */
+   
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 75%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.timezone-container{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    /* gap: 30%; */
+    justify-content: space-around;
+}
+
+.timezone-1{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 25%;
+    /* height: 100%; */
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 1%;
+}
+
+.timezone-2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 25%;
+    /* height: 100%; */
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 1%;
+}
+
+.update-box{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: space-between;
+    align-self: center;
+    /* border: 1px solid black; */
+    /* position: relative; */
+    bottom: 2vw;
+    width: 30%;
+    /* height: 75%; */
+    box-sizing: border-box;
+}

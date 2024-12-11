@@ -1,0 +1,123 @@
+@media only screen and (max-width: 800px) {
+  #applicaton-heading {
+    font-size: 6vw;
+  }
+
+  .container{
+    gap: 2vw;
+  }
+
+  .update-box {
+    bottom: 0%;
+    width: 100%;
+    /* height: 4vw; */
+  }
+
+
+  .format-box{
+    width: 28%;
+    height: 12vw;
+  }
+
+  .format-24{
+    font-size: 5vw;
+  }
+
+  .format-change{
+    width: 40%;
+  }
+
+  .reverse-button{
+    padding-bottom: 10vw;
+    width: 15%;
+    height: 4vw;
+    font-size: 8vw;
+  }
+
+  /* .reset-button{
+    width: 20%;
+    height: 10vw;
+    font-size: 5vw;
+  } */
+
+  .information{
+    padding: 0;
+    font-size: 4.5vw;
+    text-align: center;
+  }
+
+  .timezone-container{
+    gap: 2vw;
+    flex-direction: column;
+    /* height: 120vw; */
+  }
+
+  .timezone-1{
+    gap: 0.5vw;
+    width: 65%;
+    /* height: 50vw; */
+    /* height: 80vw; */
+    align-self: center;
+  }
+
+  .timezone-2{
+    gap: 0.5vw;
+    width: 65%;
+    /* height: 50%; */
+    align-self: center;
+  }
+
+  .time-box{
+    height: 40vw;
+  }
+
+  .flag-update{
+    width: 85%;
+    height: 25%;
+    font-size: 4vw;
+    text-align: end;
+    /* border: 1px solid black; */
+  }
+
+  .date-print{
+    font-size: 3.7vw;
+  }
+
+  .time-print{
+    width: 80%;
+    height: 80%;
+    font-size: 10vw;
+    /* border: 1px solid black; */
+  }
+
+  /* select[name='hour']{
+      width: 12vw;
+  }
+
+  select[name='minute']{
+    width: 12vw;
+} */
+
+  .day-update{
+    height: 20%;
+    font-size: 4.5vw;
+    padding-top: 2vw;
+  }
+
+  .search-country{
+    width: 60%;
+    height: 6vw;
+    font-size: 3.5vw;
+  }
+
+  .second{
+    width: 20%;
+    height: 10%;
+  }
+
+  .watermark{
+    font-size: 2vw;
+    position: absolute;
+  }
+
+}

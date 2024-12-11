@@ -1,0 +1,93 @@
+.hour{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 40%;
+    /* height: 100%; */
+    font-family: 'Orbitron';
+}
+
+
+/* select[name="hour"]{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 90%; */
+    /* border: 1px solid black; */
+    /* width: 50%;
+    font-size: 30%; */
+    /* align-self: center; */
+    /* border-radius: 25px; */
+    /* background-image: linear-gradient(to right,#a6a6a6,#ffffff ); */
+    /* height: 80%; */
+    /* font-size: 100%;
+    font-family: 'Orbitron';*/
+/* } */
+
+.minute{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 40%;
+    font-family: 'Orbitron';
+    /* height: 80%; */
+}
+
+/* select[name="minute"]{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 90%; */
+    /* border: 1px solid black; */
+    /* width: 50%;
+    font-size: 30%;
+    align-self: center; */
+    /* border-radius: 25px; */
+    /* background-image: linear-gradient(to right,#a6a6a6,#ffffff ); */
+    /* height: 80%; */
+    /* font-size: 100%;
+    font-family: 'Orbitron';*/
+/* } */
+
+.second-box{
+    padding-top: 1%;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30%;
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 80%;
+}
+
+.second{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 30%;
+    height: 20%;
+    background-color: black;
+}
+
+div[colour="green"]{
+    background-color: #00bf63;
+}
+
+div[colour="red"]{
+    background-color: #ff5757;
+}

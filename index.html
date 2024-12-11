@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timezone Converter</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Special Elite"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style1.css" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="./style3.css" />
+    <link rel="stylesheet" href="./media-style.css" />
+  </head>
+  <body>
+    <div id="applicaton-heading">
+      <div id="heading-1">TIME ZONE</div>
+      <div id="heading-2">Converter</div>
+    </div>
+
+    <div class="container">
+      <div class="timezone-container">
+        <div class="timezone-1">
+          <div class="time-box">
+            <div class="time-box-1" colour="green" id="box-1">
+              <div class="flag-update" date="date-update">
+                <img
+                  src="https://flagicons.lipis.dev/flags/4x3/in.svg"
+                  alt="India"
+                  class="flag-image"
+                  flag="left-flag"
+                />
+                <div class="date-print" date="left-date">Saturday, 30 November 2024</div>
+              </div>
+              <div class="time-print">
+                <div class="hour">
+                  <div class="hour-print-1">02</div>
+                </div>
+
+                <div class="second-box">
+                  <div class="second"></div>
+                  <div class="second"></div>
+                </div>
+
+                <div class="minute">
+                  <div class="minute-print-1">12</div>
+                </div>
+              </div>
+              <div class="day-update" id="day-update-1">Morning Time</div>
+            </div>
+          </div>
+          <input type="search" class="search-country" list="input1" name="input1" id="country1-option"/>
+          <datalist id="input1">
+            <option value="Afghanistan" flag="af" name="Afghanistan Time" short="AFT">Asia/Kabul</option>
+            <option value="Argentina" flag="ar" name="Argentina Time" short="ART"">America/Argentina/Buenos_Aires</option>
+            <option value="Armenia" flag="am" name="Armenia Time" short="AMT">Asia/Yerevan</option>
+            <option value="Australia" flag="au" name="Australian Western Standard Time" short="AWST">Australia/Perth</option>
+            <option value="Australia" flag="au" name="Australian Central Standard Time" short="ACST">Australia/Darwin</option>
+            <option value="Australia" flag="au" name="Australian Central Daylight Time" short="ACDT">Australia/Adelaide</option>
+            <option value="Australia" flag="au" name="Australian Eastern Daylight Time" short="AEDT">Australia/Sydney</option>
+            <option value="Azerbaijan" flag="az" name="Asia/Baku" short="AZT">Asia/Baku</option>
+            <option value="Bangladesh" flag="bd" name="Bangladesh Standard Time" short="BST">Asia/Dhaka</option>
+            <option value="Barbados" flag="bb" name="Atlantic Standard Time" short="AST">America/Barbados</option>
+            <option value="Belarus" flag="by" name="Moscow Standard Time" short="MSK">Europe/Minsk</option>
+            <option value="Bhutan" flag="bt" name="Bhutan Time" short="Bhutan Time" >Asia/Thimphu</option>
+            <option value="Brazil" flag="br" name="Amazon Time" short="AMT" >America/Manaus</option>
+            <option value="Brazil" flag="br" name="Brasília Time" short="BRT" >America/Sao_Paulo</option>
+            <option value="Canada" flag="ca" name="Pacific Standard Time" short="PST">America/Vancouver</option>
+            <option value="Canada" flag="ca" name="Eastern Standard Time" short="EST">America/Toronto</option>
+            <option value="Canada" flag="ca" name="Newfoundland Standard Time" short="NST">America/St_Johns</option>
+            <option value="China" flag="cn" name="China Standard Time" short="CST">Asia/Shanghai</option>
+            <option value="Denmark" flag="dk" name="Central European Time" short="CET">Europe/Copenhagen</option>
+            <option value="Egypt" flag="eg" name="Eastern European Time" short="EET">Africa/Cairo</option>
+            <option value="Fiji" flag="fj" name="Fiji Time" short="FJT">Pacific/Fiji</option>
+            <option value="France" flag="fr" name="Central European Time" short="CET">Europe/Paris</option>
+            <option value="Germany" flag="de" name="Central European Time" short="CET">Europe/Berlin</option>
+            <option value="Hong Kong" flag="hk" name="Hong Kong Time" short="HKT">Asia/Hong_Kong</option>
+            <option value="Hungary" flag="hu" name="Central European Time" short="CET">Europe/Budapest</option>
+            <option value="Iceland" flag="is" name="Greenwich Mean Time" short="GMT">Atlantic/Reykjavik</option>
+            <option value="India" flag="in" name="India Standard Time" short="IST">Asia/Kolkata</option>
+            <option value="Indonesia" flag="id" name="Western Indonesian Time" short="WIB">Asia/Jakarta</option>
+            <option value="Iran" flag="ir" name="Iran Standard Time" short="IRST">Asia/Tehran</option>
+            <option value="Iraq" flag="iq" name="Arabia Standard Time" short="AST">Asia/Baghdad</option>
+            <option value="Ireland" flag="ie" name="Greenwich Mean Time" short="GMT">Europe/Dublin</option>
+            <option value="Israel" flag="il" name="Israel Standard Time" short="IST">Asia/Jerusalem</option>
+            <option value="Italy" flag="it" name="Central European Time" short="CET">Europe/Rome</option>
+            <option value="Jamaica" flag="jm" name="Eastern Standard Time" short="EST">America/Jamaica</option>
+            <option value="Japan" flag="jp" name="Japan Standard Time" short="JST">Asia/Tokyo</option>
+            <option value="Jordan" flag="jo" name="Eastern European Summer Time" short="EEST">Asia/Amman</option>
+            <option value="Kazakhstan" flag="kz" name="Oral Time" short="ORAT">Asia/Oral</option>
+            <option value="Kenya" flag="ke" name="Eastern Africa Time" short="EAT">Africa/Nairobi</option>
+            <option value="Kuwait" flag="kw" name="Arabia Standard Time" short="AST">Asia/Kuwait</option>
+            <option value="Kyrgyzstan" flag="kg" name="Kyrgyzstan Time" short="KGT">Asia/Bishkek</option>
+            <option value="Madagascar" flag="mg" name="Eastern Africa Time" short="EAT">Indian/Antananarivo</option>
+            <option value="Malaysia" flag="my" name="Malaysia Time" short="MYT">Asia/Kuala_Lumpur</option>
+            <option value="Maldives" flag="mv" name="Maldives Time" short="MVT">Indian/Maldives</option>
+            <option value="Mauritius" flag="mu" name="Mauritius Time" short="MUT">Indian/Mauritius</option>
+            <option value="Mexico" flag="mx" name="Central Standard Time" short="CST">America/Mexico_City</option>
+            <option value="Myanmar" flag="mm" name="Myanmar Time" short="MMT">Asia/Yangon</option>
+            <option value="Nepal" flag="np" name="Nepal Time" short="NPT">Asia/Kathmandu</option>
+            <option value="Netherlands" flag="nl" name="Central European Time" short="CET">Europe/Amsterdam</option>
+            <option value="New Zealand" flag="nz" name="New Zealand Daylight Time" short="NZDT">Pacific/Auckland</option>
+            <option value="Nigeria" flag="ng" name="West Africa Time" short="WAT">Africa/Lagos</option>
+            <option value="North Korea" flag="kp" name="Korea Standard Time" short="KST">Asia/Pyongyang</option>
+            <option value="Norway" flag="no" name="Central European Time" short="CET">Europe/Oslo</option>
+            <option value="Oman" flag="om" name="Gulf Standard Time" short="GST">Asia/Muscat</option>
+            <option value="Pakistan" flag="pk" name="Pakistan Standard Time" short="PKT">Asia/Karachi</option>
+            <option value="Papua New Guinea" flag="pg" name="Bougainville Standard Time" short="BST">Pacific/Bougainville</option>
+            <option value="Poland" flag="pl" name="Central European Time" short="CET">Europe/Warsaw</option>
+            <option value="Portugal" flag="pt" name="Western European Time" short="WET">Europe/Lisbon</option>
+            <option value="Qatar" flag="qa" name="Arabia Standard Time" short="AST">Asia/Qatar</option>
+            <option value="Russia" flag="ru" name="Moscow Standard Time" short="MSK">Europe/Moscow</option>
+            <option value="Saudi Arabia" flag="sa" name="Arabia Standard Time" short="AST">Asia/Riyadh</option>
+            <option value="Singapore" flag="sg" name="Singapore Time" short="SGT">Asia/Singapore</option>
+            <option value="South Africa" flag="za" name="South Africa Standard Time" short="SAST">Africa/Johannesburg</option>
+            <option value="South Korea" flag="kr" name="Korea Standard Time" short="KST">Asia/Seoul</option>
+            <option value="Spain" flag="es" name="Central European Time" short="CET">Europe/Madrid</option>
+            <option value="Sri Lanka" flag="lk" name="India Standard Time" short="IST">Asia/Colombo</option>
+            <option value="Sweden" flag="se" name="Central European Time" short="CET">Europe/Stockholm</option>
+            <option value="Switzerland" flag="ch" name="Central European Time" short="CET">Europe/Zurich</option>
+            <option value="Syria" flag="sy" name="Eastern European Summer Time" short="EEST">Asia/Damascus</option>
+            <option value="Taiwan" flag="tw" name="China Standard Time" short="CST">Asia/Taipei</option>
+            <option value="Tajikistan" flag="tj" name="Tajikistan Time" short="TJT">Asia/Dushanbe</option>
+            <option value="Thailand" flag="th" name="Indochina Time" short="ICT">Asia/Bangkok</option>
+            <option value="Turkmenistan" flag="tm" name="Turkmenistan Time" short="TMT">Asia/Ashgabat</option>
+            <option value="Turkey" flag="tr" name="Eastern European Summer Time" short="EEST">Europe/Istanbul</option>
+            <option value="Uganda" flag="ug" name="Eastern Africa Time" short="EAT">Africa/Kampala</option>
+            <option value="Ukraine" flag="ua" name="Eastern European Time" short="EET">Europe/Kyiv</option>
+            <option value="United Arab Emirates" flag="ae" name="Gulf Standard Time" short="GST">Asia/Dubai</option>
+            <option value="United Kingdom" flag="gb" name="Greenwich Mean Time" short="GMT">Europe/London</option>
+            <option value="United States" flag="us" name="Pacific Standard Time" short="PST">America/Los_Angeles</option>
+            <option value="United States" flag="us" name="Central Standard Time" short="CST">America/Chicago</option>
+            <option value="United States" flag="us" name="Eastern Standard Time" short="EST">America/New_York</option>
+            <option value="United States" flag="us" name="Hawaii Standard Time" short="HST">Pacific/Honolulu</option>
+            <option value="United States" flag="us" name="Alaska Standard Time" short="AKST">America/Anchorage</option>
+            <option value="Uzbekistan" flag="uz" name="Uzbekistan Time" short="UZT">Asia/Tashkent</option>
+            <option value="Yemen" flag="ye" name="Arabia Standard Time" short="AST">Asia/Aden</option>
+            <option value="Zimbabwe" flag="zw" name="Central Africa Time" short="CAT">Africa/Harare</option>
+          </datalist>
+        </div>
+
+        <div class="timezone-2">
+          <div class="time-box">
+            <div class="time-box-1" colour="red" id="box-2">
+              <div class="flag-update" date="date-update">
+                <img
+                  src="https://flagicons.lipis.dev/flags/4x3/us.svg"
+                  alt="America"
+                  class="flag-image"
+                  flag="right-flag"
+                />
+                <div class="date-print" date="right-date">Saturday, 30 November 2024</div>
+              </div>
+              <div class="time-print">
+                <div class="hour">
+                  <div class="hour-print-2">12</div>
+                </div>
+                <div class="second-box">
+                  <div class="second"></div>
+                  <div class="second"></div>
+                </div>
+
+                <div class="minute">
+                  <div class="minute-print-2">22</div>
+                </div>
+              </div>
+              <div class="day-update" id="day-update-2">Evening Time</div>
+            </div>
+          </div>
+          <input type="search" class="search-country" list="input2" name="input2" id="country2-option"/>
+          <datalist id="input2">
+            <option value="Afghanistan" flag="af" name="Afghanistan Time" short="AFT">Asia/Kabul</option>
+            <option value="Argentina" flag="ar" name="Argentina Time" short="ART"">	America/Argentina/Buenos_Aires</option>
+            <option value="Armenia" flag="am" name="Armenia Time" short="AMT">Asia/Yerevan</option>
+            <option value="Australia" flag="au" name="Australian Western Standard Time" short="AWST">Australia/Perth</option>
+            <option value="Australia" flag="au" name="Australian Central Standard Time" short="ACST">Australia/Darwin</option>
+            <option value="Australia" flag="au" name="Australian Central Daylight Time" short="ACDT">Australia/Adelaide</option>
+            <option value="Australia" flag="au" name="Australian Eastern Daylight Time" short="AEDT">Australia/Sydney</option>
+            <option value="Azerbaijan" flag="az" name="Asia/Baku" short="AZT">Asia/Baku</option>
+            <option value="Bangladesh" flag="bd" name="Bangladesh Standard Time" short="BST">Asia/Dhaka</option>
+            <option value="Barbados" flag="bb" name="Atlantic Standard Time" short="AST">America/Barbados</option>
+            <option value="Belarus" flag="by" name="Moscow Standard Time" short="MSK">Europe/Minsk</option>
+            <option value="Bhutan" flag="bt" name="Bhutan Time" short="Bhutan Time" >Asia/Thimphu</option>
+            <option value="Brazil" flag="br" name="Amazon Time" short="AMT" >America/Manaus</option>
+            <option value="Brazil" flag="br" name="Brasília Time" short="BRT" >America/Sao_Paulo</option>
+            <option value="Canada" flag="ca" name="Pacific Standard Time" short="PST">America/Vancouver</option>
+            <option value="Canada" flag="ca" name="Eastern Standard Time" short="EST">America/Toronto</option>
+            <option value="Canada" flag="ca" name="Newfoundland Standard Time" short="NST">America/St_Johns</option>
+            <option value="China" flag="cn" name="China Standard Time" short="CST">Asia/Shanghai</option>
+            <option value="Denmark" flag="dk" name="Central European Time" short="CET">Europe/Copenhagen</option>
+            <option value="Egypt" flag="eg" name="Eastern European Time" short="EET">Africa/Cairo</option>
+            <option value="Fiji" flag="fj" name="Fiji Time" short="FJT">Pacific/Fiji</option>
+            <option value="France" flag="fr" name="Central European Time" short="CET">Europe/Paris</option>
+            <option value="Germany" flag="de" name="Central European Time" short="CET">Europe/Berlin</option>
+            <option value="Hong Kong" flag="hk" name="Hong Kong Time" short="HKT">Asia/Hong_Kong</option>
+            <option value="Hungary" flag="hu" name="Central European Time" short="CET">Europe/Budapest</option>
+            <option value="Iceland" flag="is" name="Greenwich Mean Time" short="GMT">Atlantic/Reykjavik</option>
+            <option value="India" flag="in" name="India Standard Time" short="IST">Asia/Kolkata</option>
+            <option value="Indonesia" flag="id" name="Western Indonesian Time" short="WIB">Asia/Jakarta</option>
+            <option value="Iran" flag="ir" name="Iran Standard Time" short="IRST">Asia/Tehran</option>
+            <option value="Iraq" flag="iq" name="Arabia Standard Time" short="AST">Asia/Baghdad</option>
+            <option value="Ireland" flag="ie" name="Greenwich Mean Time" short="GMT">Europe/Dublin</option>
+            <option value="Israel" flag="il" name="Israel Standard Time" short="IST">Asia/Jerusalem</option>
+            <option value="Italy" flag="it" name="Central European Time" short="CET">Europe/Rome</option>
+            <option value="Jamaica" flag="jm" name="Eastern Standard Time" short="EST">America/Jamaica</option>
+            <option value="Japan" flag="jp" name="Japan Standard Time" short="JST">Asia/Tokyo</option>
+            <option value="Jordan" flag="jo" name="Eastern European Summer Time" short="EEST">Asia/Amman</option>
+            <option value="Kazakhstan" flag="kz" name="Oral Time" short="ORAT">Asia/Oral</option>
+            <option value="Kenya" flag="ke" name="Eastern Africa Time" short="EAT">Africa/Nairobi</option>
+            <option value="Kuwait" flag="kw" name="Arabia Standard Time" short="AST">Asia/Kuwait</option>
+            <option value="Kyrgyzstan" flag="kg" name="Kyrgyzstan Time" short="KGT">Asia/Bishkek</option>
+            <option value="Madagascar" flag="mg" name="Eastern Africa Time" short="EAT">Indian/Antananarivo</option>
+            <option value="Malaysia" flag="my" name="Malaysia Time" short="MYT">Asia/Kuala_Lumpur</option>
+            <option value="Maldives" flag="mv" name="Maldives Time" short="MVT">Indian/Maldives</option>
+            <option value="Mauritius" flag="mu" name="Mauritius Time" short="MUT">Indian/Mauritius</option>
+            <option value="Mexico" flag="mx" name="Central Standard Time" short="CST">America/Mexico_City</option>
+            <option value="Myanmar" flag="mm" name="Myanmar Time" short="MMT">Asia/Yangon</option>
+            <option value="Nepal" flag="np" name="Nepal Time" short="NPT">Asia/Kathmandu</option>
+            <option value="Netherlands" flag="nl" name="Central European Time" short="CET">Europe/Amsterdam</option>
+            <option value="New Zealand" flag="nz" name="New Zealand Daylight Time" short="NZDT">Pacific/Auckland</option>
+            <option value="Nigeria" flag="ng" name="West Africa Time" short="WAT">Africa/Lagos</option>
+            <option value="North Korea" flag="kp" name="Korea Standard Time" short="KST">Asia/Pyongyang</option>
+            <option value="Norway" flag="no" name="Central European Time" short="CET">Europe/Oslo</option>
+            <option value="Oman" flag="om" name="Gulf Standard Time" short="GST">Asia/Muscat</option>
+            <option value="Pakistan" flag="pk" name="Pakistan Standard Time" short="PKT">Asia/Karachi</option>
+            <option value="Papua New Guinea" flag="pg" name="Bougainville Standard Time" short="BST">Pacific/Bougainville</option>
+            <option value="Poland" flag="pl" name="Central European Time" short="CET">Europe/Warsaw</option>
+            <option value="Portugal" flag="pt" name="Western European Time" short="WET">Europe/Lisbon</option>
+            <option value="Qatar" flag="qa" name="Arabia Standard Time" short="AST">Asia/Qatar</option>
+            <option value="Russia" flag="ru" name="Moscow Standard Time" short="MSK">Europe/Moscow</option>
+            <option value="Saudi Arabia" flag="sa" name="Arabia Standard Time" short="AST">Asia/Riyadh</option>
+            <option value="Singapore" flag="sg" name="Singapore Time" short="SGT">Asia/Singapore</option>
+            <option value="South Africa" flag="za" name="South Africa Standard Time" short="SAST">Africa/Johannesburg</option>
+            <option value="South Korea" flag="kr" name="Korea Standard Time" short="KST">Asia/Seoul</option>
+            <option value="Spain" flag="es" name="Central European Time" short="CET">Europe/Madrid</option>
+            <option value="Sri Lanka" flag="lk" name="India Standard Time" short="IST">Asia/Colombo</option>
+            <option value="Sweden" flag="se" name="Central European Time" short="CET">Europe/Stockholm</option>
+            <option value="Switzerland" flag="ch" name="Central European Time" short="CET">Europe/Zurich</option>
+            <option value="Syria" flag="sy" name="Eastern European Summer Time" short="EEST">Asia/Damascus</option>
+            <option value="Taiwan" flag="tw" name="China Standard Time" short="CST">Asia/Taipei</option>
+            <option value="Tajikistan" flag="tj" name="Tajikistan Time" short="TJT">Asia/Dushanbe</option>
+            <option value="Thailand" flag="th" name="Indochina Time" short="ICT">Asia/Bangkok</option>
+            <option value="Turkmenistan" flag="tm" name="Turkmenistan Time" short="TMT">Asia/Ashgabat</option>
+            <option value="Turkey" flag="tr" name="Eastern European Summer Time" short="EEST">Europe/Istanbul</option>
+            <option value="Uganda" flag="ug" name="Eastern Africa Time" short="EAT">Africa/Kampala</option>
+            <option value="Ukraine" flag="ua" name="Eastern European Time" short="EET">Europe/Kyiv</option>
+            <option value="United Arab Emirates" flag="ae" name="Gulf Standard Time" short="GST">Asia/Dubai</option>
+            <option value="United Kingdom" flag="gb" name="Greenwich Mean Time" short="GMT">Europe/London</option>
+            <option value="United States" flag="us" name="Pacific Standard Time" short="PST">America/Los_Angeles</option>
+            <option value="United States" flag="us" name="Central Standard Time" short="CST">America/Chicago</option>
+            <option value="United States" flag="us" name="Eastern Standard Time" short="EST">America/New_York</option>
+            <option value="United States" flag="us" name="Hawaii Standard Time" short="HST">Pacific/Honolulu</option>
+            <option value="United States" flag="us" name="Alaska Standard Time" short="AKST">America/Anchorage</option>
+            <option value="Uzbekistan" flag="uz" name="Uzbekistan Time" short="UZT">Asia/Tashkent</option>
+            <option value="Yemen" flag="ye" name="Arabia Standard Time" short="AST">Asia/Aden</option>
+            <option value="Zimbabwe" flag="zw" name="Central Africa Time" short="CAT">Africa/Harare</option>
+          </datalist>
+        </div>
+      </div>
+
+      <div class="update-box">
+        <div class="operation-button">
+          <!-- <div class="format-box">
+            <div class="format">
+              <button type="button" class="format-change"></button>
+            </div>
+            <div class="format-24">Dark</div>
+          </div> -->
+          <button type="button" class="reverse-button">&#8644;</button>
+        </div>
+        <div class="information">
+          India is 5 hours and 30 minutes ahead of United Kingdom
+        </div>
+      </div>
+    </div>
+    <div class="watermark">Rishab Upadhyaya</div>
+  </body>
+  <script src="./timeZoneC.js"></script>
+</html>
