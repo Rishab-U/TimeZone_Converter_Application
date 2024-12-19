@@ -1,3 +1,5 @@
+/* add styling to the Flag box (contain both flag and date) */
+
 .flag-update{
     padding: 0;
     margin: 0;
@@ -12,6 +14,8 @@
     justify-content: space-between;
 }
 
+/* add styling to the flag image (under Flag Box) */
+
 .flag-image{
     padding: 0;
     margin: 0;
@@ -21,6 +25,8 @@
     /* border: 1px solid black; */
     object-fit: contain;
 }
+
+/* add styling to the date value (under flag box) */
 
 .date-print{
     padding: 0;
@@ -34,6 +40,8 @@
     width: 50%; */
 }
 
+/* add styling to the outer timebox (both the timebox which are in timezone container) */
+
 .time-box{
     padding: 0;
     margin: 0;
@@ -45,6 +53,8 @@
     border-radius: 30px;
     justify-content: center;
 }
+
+/* add styling to both inner timebox under outer timebox */
 
 .time-box-1{
     padding: 5%;
@@ -63,6 +73,8 @@
     /* background-color: #00bf63; */
 }
 
+/* add styling to the time print box (contains hour, second & minutes box) */
+
 .time-print{
     padding: 0;
     margin: 0;
@@ -76,6 +88,9 @@
     font-size: 4vw;
     text-align: center;
 }
+
+/* add styling to the Day update box (which print Morning, Afternoon etc ) */
+
 .day-update{
     padding: 0;
     margin: 0;
@@ -89,6 +104,8 @@
     /* font-family: cursive; */
 }
 
+/* add styling to the Input box ( search country) */
+
 .search-country{
     padding: 0.5vw;
     margin: 0;
@@ -101,6 +118,7 @@
     text-align:center;
     font-size: 1.4vw;
 }
+
 
 .watermark{
     padding: 0;
