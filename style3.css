@@ -1,3 +1,5 @@
+/* add styling to the Information box under Update box (use to display information about two timezone) */
+
 .information{
     /* padding-top: 3vw; */
     padding: 0;
@@ -10,6 +12,8 @@
     font-family: 'Roboto Mono';
     font-weight: 500;
 }
+
+/* add styling to the Operation box which contain the reverse button */
 
 .operation-button{
     padding-bottom: 2vw;
@@ -76,6 +80,8 @@
     box-shadow: 2px 2px;
     background-image: linear-gradient(to right,#5f9ea0,#ffffff );
 } */
+
+/* add styling to the reverse button */
 
 .reverse-button{
     /* padding-bottom: 2.5vw; */
