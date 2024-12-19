@@ -1,3 +1,5 @@
+/* add styling to the website body */
+
 body{
     padding: 0;
     margin: 0;
@@ -7,6 +9,8 @@ body{
     width: 99vw;
     /* border: 1px solid black; */
 }
+
+/* add styling to the web Application Heading */
 
 #applicaton-heading{
     position: relative;
@@ -21,6 +25,8 @@ body{
     /* border: 1px solid black; */
 }
 
+/* add styling to the First Heading */
+
 #heading-1{
     padding-top: 0.2%;
     margin: 0;
@@ -32,6 +38,8 @@ body{
     text-align: center;
     /* border: 1px solid black; */
 }
+
+/* add styling to the Second Heading */
 
 #heading-2{
     position: relative;
@@ -47,6 +55,8 @@ body{
    
 }
 
+/* add styling to the container (below Heading Part) */
+
 .container{
     padding: 0;
     margin: 0;
@@ -59,6 +69,8 @@ body{
     /* border: 1px solid black; */
 }
 
+/* add styling to the TimeZone Container ( part of container contains timezone boxes) */
+
 .timezone-container{
     /* border: 1px solid black; */
     box-sizing: border-box;
@@ -69,6 +81,8 @@ body{
     /* gap: 30%; */
     justify-content: space-around;
 }
+
+/* add styling to the TimeZone box 1 */
 
 .timezone-1{
     display: flex;
@@ -81,6 +95,8 @@ body{
     gap: 1%;
 }
 
+/* add styling to the TimeZone box 2 */
+
 .timezone-2{
     display: flex;
     flex-direction: column;
@@ -91,6 +107,8 @@ body{
     justify-content: center;
     gap: 1%;
 }
+
+/* add styling to the update box (part of container below TimeZone box) */
 
 .update-box{
     padding: 0;
